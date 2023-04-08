@@ -1,0 +1,7 @@
+This is a blueprit about the app will provide.
+
+0. androide app with java.
+1. Register / Login.
+1-1. Info about customers : 
+2. Database(php) - Hold the Registeres datas on the server.
+3. 
