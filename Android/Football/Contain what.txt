@@ -4,4 +4,11 @@ This is a blueprit about the app will provide.
 1. Register / Login.
 1-1. Info about customers : 
 2. Database(php) - Hold the Registeres datas on the server.
-3. 
+
+--Contents--
+3. Submission form for a gamge participaint.
+4. Posting.
+5. google map browsing for navigator.
+
+--UI--
+6. Logo "Football Cooperative"
