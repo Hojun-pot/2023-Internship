@@ -322,6 +322,7 @@ PORTFOLIO SECTION
 .project img {
 	width: 100%;
 	height: 555px;
+	object-fit: contain;
 }
 
 
