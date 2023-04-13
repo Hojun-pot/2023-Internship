@@ -321,6 +321,7 @@ PORTFOLIO SECTION
 
 .project img {
 	width: 100%;
+	height: 555px;
 }
 
 
@@ -332,6 +333,8 @@ PORTFOLIO SECTION
 	color: #ffffff;
 	text-align: center;
 	transition: all .3s ease-out;
+	display: flex;
+  	flex-direction: column;
 }
 
 .project .description p {
