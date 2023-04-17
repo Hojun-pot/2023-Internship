@@ -134,7 +134,9 @@ NAVBAR
 }
 
 .navbar-brand img {
-	max-height: 65px;
+	position: absolute;
+	top:14.2%;
+	max-height: 72px;
 }
 
 .navbar-default .navbar-nav>li>a {
