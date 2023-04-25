@@ -385,30 +385,44 @@ CLIENTS SECTION
 
 #clients {
 	padding: 145px 0 150px;
+	align-items: center;
 }
 
 .clients-content {
 	text-align: center;
+	align-items: center;
 }
 
 .clients-content blockquote {
 	color: #231f20;
 	font-size: 15px;
 	margin-top: 37px;
+	align-items: center;
 }
 
 .clients-content blockquote footer {
 	margin-top: 30px;
 	color: #999999;
+	justify-content: center;
 }
 
 .clients-content blockquote footer:before {
 	content: '';
 }
-
+.clients-content img{
+	position: absolute;
+    top: 0;
+    left: 0;   
+    max-width: 100%;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
 .clients-logs-container {
 	margin-top: 115px;
 	text-align: center;
+	align-items: center;
 }
 
 /**********************
@@ -638,8 +652,11 @@ RESPONSIVE
 	/**********************
 	CLIENTS SECTION
 	***********************/
-	.single-client-container:not(first-of-type) {
+	.single-client-container .centered :not(first-of-type) {
 		margin-top: 60px;
+		margin-left: 30px;
+		margin: 0 auto;
+		align-items: center;
 	}
 
 	/**********************
